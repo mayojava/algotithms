@@ -18,3 +18,8 @@ fun kadene(array: Array<Int>): Int {
 
     return maxSumSoFar
 }
+
+fun main(args: Array<String>) {
+    val array = arrayOf(-2, -1, 5, -4, 3, -1, 3, -4, 1)
+    println(kadene(array))
+}
