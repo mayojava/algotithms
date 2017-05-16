@@ -37,7 +37,7 @@ fun bitonic(array: Array<Int>): IntArray {
 }
 
 fun main(args: Array<String>) {
-    var array = arrayOf(3, 5, 8, 4, 5, 9, 10, 8, 5, 3, 4)
+    var array = arrayOf(1,2,4,3,1,4,5,6,7,9,6,5,3,4,5,3,2,1)
     val res = bitonic(array)
     println("max len: ${res[0]}")
     println("start index: ${res[1] - res[0] + 1} end index: ${res[1]}")

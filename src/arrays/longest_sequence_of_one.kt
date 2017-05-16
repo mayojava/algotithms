@@ -20,9 +20,6 @@ fun findIndex(array: Array<Int>): Int {
         }
     }
 
-    array.forEach { print("$it ") }
-    println()
-
     var index = 0
     var maxSum = 0
 
@@ -47,12 +44,12 @@ fun findIndex(array: Array<Int>): Int {
              }
          }
     }
-
+    //println(maxSum)
     return index
 }
 
 fun main(args: Array<String>) {
-    var array = arrayOf(1,1,1,1,1,1,0)
+    var array = arrayOf(1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0)
     val index = findIndex(array)
-    println(index)
+    //println(index)
 }

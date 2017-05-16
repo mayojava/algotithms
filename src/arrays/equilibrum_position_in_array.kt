@@ -5,7 +5,7 @@ package arrays
  */
 fun equilibrum(array: Array<Int>) {
     var total = 0
-    (1..array.size-1).forEach { total += array[it] }
+    (0..array.size-1).forEach { total += array[it] }
 
     var sumSoFar = 0
     (array.size-1 downTo 0).forEach {
